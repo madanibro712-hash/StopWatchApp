@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch APPlication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="
+  background-image: url('https://media.istockphoto.com/id/644238384/photo/stopwatch.webp?a=1&b=1&s=612x612&w=0&k=20&c=ndr0x-k3fSmSQQQImw3gNZ7Lli4dRYpXSYkZORT40Qc=');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+">
+    
+    <h1 style="font-family: Arial, Helvetica, sans-serif ; color: white;"
+    ><b>Stop watch application</b></h1>
+<div style="display: flex; gap: 36px; justify-content: center;
+">
+<h2  id="hour">0</h2>
+<h2 id="min">0</h2>
+<h2 style="background-color: rgb(0, 0, 0);
+width: 36px; color: white; font-size: 36px;"  id="Sec">0</h2>
+<h2 style="width: 40px;" id="Msec">0</h2>
+</div>
+
+<div>
+    <button id="startButton" onclick="start()">Start</button>
+    <button id="stop" onclick="stp()">Stop</button>
+    <button  onclick="reset()">Reset</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
